@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "weather": {
+      "disabled": false,
+      "timeout": 60,
+      "command": "uv",
+      "args": [
+        "--directory",
+        "your folder path",
+        "run",
+        "weather.py"
+      ],
+      "transportType": "stdio"
+    }
+  }
+}
